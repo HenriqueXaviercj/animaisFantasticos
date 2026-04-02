@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as v;
+
+.copy {
+    grid-column: 3/5;
+    background: v.$yellow;
+
+    p {
+        padding: 20px;
+        font-family: v.$font-monospace;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        grid-column: 1;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as v;
+
+.menu {
+    grid-column: 3 / 5;
+    background: v.$yellow;
+
+    @media (max-width: 768px) {
+        grid-column: 1;
+        margin-top: 0;
+    }
+}
+
+.menu__link {
+    display: block;
+    color: v.$text-color;
+    font-family: v.$font-monospace;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .875rem;
+    letter-spacing: .1em;
+}

@@ -1,0 +1,14 @@
+
+.grid-section {
+    grid-column: 2 / 4;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 90px 300px 1fr;
+    margin-bottom: 4rem;
+
+    @media (max-width: 768px) {
+        grid-column: 1;
+        grid-template-columns: 100px 1fr;
+    }
+}

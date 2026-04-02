@@ -1,8 +1,7 @@
-@use 'variables';
+@use 'variables' as v;
 
 body {
-    background-color: $bg-color;
-    color: $text-color;
+    color: v.$text-color;
     -webkit-font-smoothing: antialiased;
 }
 

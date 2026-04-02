@@ -1,0 +1,23 @@
+@use '../abstracts/variables' as v;
+
+.contato__dados {
+    grid-column: 3;
+
+    li {
+        margin-bottom: 1rem;
+        font-family: v.$font;
+
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 10px;
+            margin-right: 10px;
+            background: v.$yellow;
+        }
+    }
+
+    @media (max-width: 768px) {
+        grid-column: 1 / 3;
+    }
+}

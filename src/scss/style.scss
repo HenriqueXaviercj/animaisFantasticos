@@ -1,3 +1,17 @@
 @use 'abstracts/reset';
 @use 'abstracts/globals';
 
+@use 'components/titulo';
+@use 'components/mapa';
+
+@use 'utils/grid';
+@use 'utils/spacing';
+@use 'utils/flex';
+
+@use 'layout/menu';
+@use 'layout/body';
+@use 'layout/animais';
+@use 'layout/faq';
+@use 'layout/contato';
+@use 'layout/footer';
+@use 'layout/section';

@@ -1,5 +1,20 @@
+/*
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+*/
+
+body, 
+h1, 
+h2, 
+ul, 
+li, 
+p, 
+dd, 
+dt, 
+dl {
+  margin: 0;
+  padding: 0;
 }
